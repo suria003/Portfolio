@@ -1,0 +1,14 @@
+:root{
+    --bg-color: #fdfaee;
+    --text-color: black;
+}
+
+.dark{
+    --bg-color: #1a202c !important;
+    --text-color: #fff !important;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
